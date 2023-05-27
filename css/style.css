@@ -1,0 +1,434 @@
+/*GENERAL*/
+* {
+    Margin:0;
+    padding:0;
+} 
+
+/*INDEX*/
+.contenedorDeLogosDeLaNav .logo{
+    width: 25%;
+    height: 25%;
+}
+
+.contenedorDeLogosDeLaNav .iconos{
+    width: 12%;
+    height: 12%;
+}
+
+#navbarSupportedContent{
+    margin-right: 10%;
+}
+
+
+.botonesFinalesDeNav{
+    display: flex;
+    width: 70%;
+    margin-right: 10%;
+}
+
+.fondo{
+    width: 100%;
+}
+/*FOOTER INDEX*/
+
+footer{
+    background-color: #171d1c;
+    color: #F8E16C;
+}
+
+.col ul{
+    list-style: none;
+}
+
+.col ul li a{
+    color: #F8E16C;
+}
+
+.col button{
+    background-color: #171d1c;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-color: #198754;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #198754;
+}
+
+button a{
+    color: #198754;
+    text-decoration: none;
+}
+
+button a:hover{
+    color: white;
+}
+
+/*FOOD*/
+main{
+    background-color: #171d1c;
+}
+
+.contenedorIntroduccion{
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+}
+
+.hijoIntroduccion{
+  height: 80%;
+  width: 80%;
+  margin-left: 8%;
+}
+
+.contenedorIntroduccion img{
+    width: 35%;
+    height: 35%;
+    margin-left: 25%;
+}
+
+.contenedorDeMenuFood{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 15vw;
+    grid-template-rows: 60vh 65vh 53vh 36vh 60vh;
+    grid-template-areas: "desayunos  sandwichs    cafes    refrescos  creps"
+                         "desayunos  beber        cafes    refrescos  none"
+                         "croissants beber        picar    refrescos  none"
+                         "poke       ingredientes almuerzo bocadillos none"
+                         "ensaladas  ingredientes almuerzo bocadillos none";
+
+    column-gap: 3px;
+    row-gap: 20px;
+    background-image: url(../images/fondocontacto.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.contenedorDeMenuFood h2{
+    color: #F8E16C;
+    text-transform: uppercase;
+}
+
+.contenedorDeMenuFood h3{
+    color: #F8E16C;
+    text-transform: uppercase;
+}
+
+.desayunos{
+    grid-area: desayunos;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.desayunos p{
+    font-style: italic;
+}
+
+.croissants{
+    grid-area: croissants;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.poke{
+    grid-area: poke;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.ensaladas{
+    grid-area: ensaladas;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.sandwichs{
+    grid-area: sandwichs;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.beber{
+    grid-area: beber;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.beber h4{
+    color: aquamarine;
+}
+
+.beber ul{
+    list-style: none;
+}
+
+.ingredientes{
+    grid-area: ingredientes;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.cafes{
+    grid-area: cafes;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.cafes ul{
+    list-style: none;
+}
+
+.cafes p{
+    font-style: italic;
+}
+
+.picar{
+    grid-area: picar;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.almuerzo{
+    grid-area: almuerzo;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.almuerzo p{
+    font-style: italic;
+}
+
+.refrescos{
+    grid-area: refrescos;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.refrescos ul{
+    list-style: none;
+}
+
+.bocadillos{
+    grid-area: bocadillos;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.creps{
+    grid-area: creps;
+    justify-self: center; 
+    background-color:#354C20
+}
+
+.alergenos{
+    grid-area: alergenos;
+    justify-self: center; 
+}
+
+
+/*FOOTER FOOD*/
+
+@media screen and (max-width: 646px){
+    
+.footer__subPaginas{
+        display: none;
+    }
+}
+    
+
+
+/*DRINKS*/
+
+.mainDrinks .col{
+    color: white;
+}
+
+/*Shishas*/
+
+.contenedorShishas{
+    display: grid;
+    grid-template-columns: 60vw 30vw;
+    grid-template-rows: 72vh 50vh;
+    grid-template-areas: "carrousel flyer"
+                         "panel     flyer";
+
+    column-gap: 50px;
+}
+
+#carouselExample{
+    grid-area: carrousel;
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+
+}
+.flyerShishas{
+    grid-area: flyer;
+}
+
+.flyerShishas img{
+    height: 100%;
+    width: 110%;
+}
+
+.infoSabores{
+    grid-area: panel;
+}
+
+.infoSabores img{
+    height: 100%;
+    width: 106%;
+}
+
+@media  screen and (max-width: 732px) {
+    .contenedorIntroduccion{
+        display: block;
+    }
+
+    .contenedorIntroduccion img{
+        display: none;
+    }
+
+    .contenedorShishas{
+        display: block;
+    }
+
+    #carouselExample{
+        margin-left: 0;
+    }
+
+    .flyerShishas{
+        width: 90%;
+    }
+
+    .infoSabores{
+        width: 94%;
+    }
+    
+}
+/*Contacto*/
+
+.encabezado{
+    background-image: url(../images/fondoamazonico.jpg);
+}
+
+.encabezado h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 9rem;
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 2px black;
+}
+
+.encabezado button:not(.botonesFinal){
+    margin-left: 42%;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.modal-body form{
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    border: 1px solid #4e6638;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #354C20;
+    color: #F8E16C;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.primerArticulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F8E16C;
+}
+
+.primerArticulo #carouselExampleAutoplaying{
+    width: 30%;
+    height: 30%;
+}
+
+.segundoArticulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F8E16C;
+}
+
+.cards{
+    display: flex;
+}
+
+.cards .card{
+    width: 18rem;
+}
+
+@media screen and (max-width: 768px){
+    .cards .card{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .cards .card{
+        width: 11rem;
+    }
+    .encabezado h1{
+        font-size: 6rem;
+    }
+
+    .encabezado button:not(.botonesFinal){
+        margin-left: 34%;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    .cards {
+    display: block;
+    }
+    .encabezado h1{
+        color: whitesmoke;
+        text-align: center;
+        font-size: 4rem;
+        font-family: 'Lobster', cursive;
+        -webkit-text-stroke: 2px black;
+    }
+
+    .encabezado button:not(.botonesFinal){
+        margin-left: 35%;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+
+    }
+
+    @media screen and (max-width: 380px){
+        .col button{
+            background-color: #171d1c;
+            font-size: 13px;
+            padding: 9px 15px;
+            border-color: #198754;
+            border-radius: 5px;
+        }
+    }
+    
+
+.cards img{
+    width: 60%;
+    height: 60%;
+    margin-left: 13%;
+}
