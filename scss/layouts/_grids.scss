@@ -1,0 +1,24 @@
+.mainDrinks{
+
+    .col{
+    color: map-get($paleta_de_colores, blanco );
+}
+}
+
+.contenedorShishas{
+    display: grid;
+    grid-template-columns: 60vw 30vw;
+    grid-template-rows: 72vh 50vh;
+    grid-template-areas: "carrousel flyer"
+                         "panel     flyer";
+
+    column-gap: 50px;
+}
+
+.flyerShishas{
+    grid-area: flyer;
+}
+
+.infoSabores{
+    grid-area: panel;
+}

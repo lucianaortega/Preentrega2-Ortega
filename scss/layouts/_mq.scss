@@ -1,0 +1,79 @@
+
+
+@media screen and (max-width: 870px){
+    .encabezado{
+        h1{
+            font-size: 12px;
+        }
+    }
+    .segundoArticulo{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 540px){
+
+    .encabezado button:not(.botonesFinal){
+        margin-left: 34%;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 646px) {
+
+    .encabezado button:not(.botonesFinal){
+        margin-left: 35%;
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+
+    }
+
+    @media screen and (max-width: 380px){
+        .col button{
+            background-color: #171d1c;
+            font-size: 13px;
+            padding: 9px 15px;
+            border-color: #198754;
+            border-radius: 5px;
+        }
+    }
+    
+    @media  screen and (max-width: 732px) {
+        .contenedorIntroduccion{
+            display: block;
+        }
+    
+        .contenedorIntroduccion img{
+            display: none;
+        }
+    
+        .contenedorShishas{
+            display: block;
+        }
+    
+        #carouselExample{
+            margin-left: 0;
+        }
+    
+        .flyerShishas{
+            width: 90%;
+        }
+    
+        .infoSabores{
+            width: 94%;
+        }
+        
+    }
+
+    @media screen and (max-width: 646px){
+    
+        .footer__subPaginas{
+                display: none;
+            }
+        }
+          

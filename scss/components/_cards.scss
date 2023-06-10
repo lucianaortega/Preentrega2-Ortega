@@ -1,0 +1,17 @@
+.cards{
+
+    display: flex;
+
+    .card{
+        width: 18rem;
+        .card-body{
+        background-color: map-get($paleta_de_colores, verdeMilitar);
+        color: map-get($paleta_de_colores, amarillo );
+        border: 1px solid magenta;
+    }
+    }
+    
+}
+
+
+

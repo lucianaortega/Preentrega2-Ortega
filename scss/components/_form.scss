@@ -1,0 +1,17 @@
+.modal-body{
+
+    form{
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    border: 1px solid map-get($paleta_de_colores, verdeMilitar );
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: map-get($paleta_de_colores, verdeOscuro );
+    color: map-get($paleta_de_colores, amarillo);
+    width: 80%;
+    margin: 0 auto;
+}
+
+}

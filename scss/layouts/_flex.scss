@@ -1,0 +1,32 @@
+
+.contenedorIntroduccion{
+    display: flex;
+    color: map-get($paleta_de_colores, blanco );
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.hijoIntroduccion{
+    height: 80%;
+    width: 80%;
+    margin-left: 8%;
+  }
+  
+
+  .primerArticulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: map-get($paleta_de_colores, amarillo );
+}
+
+.segundoArticulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: map-get($paleta_de_colores, amarillo );
+}
+

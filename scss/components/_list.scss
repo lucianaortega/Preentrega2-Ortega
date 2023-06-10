@@ -1,0 +1,18 @@
+.col{
+
+    ul{
+    list-style: none;
+}
+
+}
+
+.col{
+
+    ul{
+    li{
+    a{
+    color: map-get($paleta_de_colores, amarillo );
+}
+}
+}
+}

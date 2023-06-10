@@ -1,0 +1,26 @@
+
+.encabezado{
+
+    background-image: url(../images/fondoamazonico.jpg);
+
+    button:not(.botonesFinal){
+    margin-left: 42%;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-bottom: 3%;
+
+}
+
+
+h1{
+    color: map-get($paleta_de_colores, blanco );
+    text-align: center;
+    font-size: 9rem;
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 2px map-get($paleta_de_colores, negro);
+}
+
+}
+
+
+
